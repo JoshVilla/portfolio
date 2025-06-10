@@ -1,4 +1,3 @@
-import React from "react";
 import { Separator } from "../ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";

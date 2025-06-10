@@ -1,4 +1,3 @@
-import React from "react";
 import { Separator } from "../ui/separator";
 import { CircleCheck } from "lucide-react";
 import { Progress } from "../ui/progress";
