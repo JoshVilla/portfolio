@@ -4,7 +4,7 @@ import { Progress } from "../ui/progress";
 
 const SkillSets = () => {
   const skills = [
-    { name: "HTML (Hypertext Markup Language)", level: 90, value: 9 },
+    { name: "HTML", level: 90, value: 9 },
     { name: "CSS/SASS", level: 70, value: 7 },
     { name: "Bootstrap", level: 60, value: 6 },
     { name: "Tailwind", level: 70, value: 7 },
