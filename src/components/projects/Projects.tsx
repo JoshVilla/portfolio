@@ -110,29 +110,35 @@ const Projects = () => {
         <div className="text-lg font-semibold">Landing Pages</div>
         <div className="mt-4 flex items-center justify-around flex-wrap gap-4">
           {projects.map((project, index) => (
-            <motion.div
-              className="w-[300px] border-2 border-gray-300 p-2 rounded-lg"
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               key={index}
-              variants={fadeInUp}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              custom={index}
             >
-              <img src={project.image} alt="" />
-              <div className="mt-4">
-                <div className=" font-semibold mb-4 text-center">
-                  {project.title}
+              <motion.div
+                className="w-[300px] border-2 border-gray-300 p-2 rounded-lg hover:shadow-lg transition-shadow duration-300"
+                variants={fadeInUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                custom={index}
+              >
+                <img src={project.image} alt={project.title} />
+                <div className="mt-4">
+                  <div className="font-semibold mb-4 text-center">
+                    {project.title}
+                  </div>
+                  <div className="flex items-center gap-4 mt-2 justify-center">
+                    {project.technologies.map((technology, idx) => (
+                      <Badge key={idx} className="bg-green-500">
+                        {technology}
+                      </Badge>
+                    ))}
+                  </div>
                 </div>
-                <div className="flex items-center gap-4 mt-2 justify-center">
-                  {project.technologies.map((technology, idx) => (
-                    <Badge key={idx} className="bg-green-500">
-                      {technology}
-                    </Badge>
-                  ))}
-                </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </a>
           ))}
         </div>
       </div>
