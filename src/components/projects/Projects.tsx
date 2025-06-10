@@ -5,37 +5,37 @@ const Projects = () => {
   const projects = [
     {
       title: "Project 1 Webisite",
-      image: "./public/assets/abcCompany1.png",
+      image: "/assets/abcCompany1.png",
       technologies: ["React", "Bootstrap"],
       link: "https://project1-modern.netlify.app/",
     },
     {
       title: "Project 2 Webisite",
-      image: "./public/assets/abcCompany2.png",
+      image: "/assets/abcCompany2.png",
       technologies: ["React", "Bootstrap"],
       link: "https://project2-modern.netlify.app/",
     },
     {
       title: "Boracay Website",
-      image: "./public/assets/boracay.png",
+      image: "/assets/boracay.png",
       technologies: ["React", "Bootstrap"],
       link: "https://project4-modern.netlify.app/",
     },
     {
       title: "Burger Town Website",
-      image: "./public/assets/burgerTown.png",
+      image: "/assets/burgerTown.png",
       technologies: ["React", "Bootstrap"],
       link: "https://burgertown-project.netlify.app/",
     },
     {
       title: "Grill House Website",
-      image: "./public/assets/grillHouse.png",
+      image: "/assets/grillHouse.png",
       technologies: ["Wordpress"],
       link: "https://project1wordp.netlify.app/",
     },
     {
       title: "Properties Website",
-      image: "./public/assets/properties.png",
+      image: "/assets/properties.png",
       technologies: ["Wordpress"],
       link: "https://project2wordp.netlify.app/",
     },

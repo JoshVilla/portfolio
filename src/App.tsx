@@ -34,7 +34,7 @@ function App() {
         <aside className="flex-1 lg:flex justify-center items-center hidden">
           <div className="m-auto">
             <img
-              src="./public/assets/profile.jpg"
+              src="/assets/profile.jpg"
               alt=""
               className="w-46 lg:w-66 rounded-full"
             />
