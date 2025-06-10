@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "Burger Town Website",
       image: "/assets/burgerTown.png",
-      technologies: ["React", "Bootstrap"],
+      technologies: ["React", "Tailwind"],
       link: "https://burgertown-project.netlify.app/",
     },
     {

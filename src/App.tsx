@@ -5,6 +5,7 @@ import Experiences from "./components/experiences/Experiences";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contacts/Contact";
 import { Download } from "lucide-react";
+import Github from "./components/github/Github";
 
 function App() {
   const fadeInUp = {
@@ -78,6 +79,16 @@ function App() {
         viewport={{ once: true }}
       >
         <Projects />
+      </motion.section>
+
+      <motion.section
+        variants={fadeInUp}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ once: true }}
+      >
+        <Github />
       </motion.section>
 
       <motion.section
