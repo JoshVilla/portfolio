@@ -4,6 +4,7 @@ import SkillSets from "./components/skillsets/SkillSets";
 import Experiences from "./components/experiences/Experiences";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contacts/Contact";
+import { Download } from "lucide-react";
 
 function App() {
   const fadeInUp = {
@@ -30,6 +31,13 @@ function App() {
             and usability, I aim to create seamless digital experiences that are
             both visually appealing and efficient.
           </p>
+          <a
+            href="/CV_Earl_Joshua_Villa.pdf"
+            download="Earl_Joshua_Villa-Resume.pdf"
+            className="text-xs text-green-500 flex gap-2 mt-6 cursor-pointer hover:underline hover:scale-105 transition-all"
+          >
+            <Download height={15} width={15} /> <span>Download Resume</span>
+          </a>
         </section>
         <aside className="flex-1 lg:flex justify-center items-center hidden">
           <div className="m-auto">

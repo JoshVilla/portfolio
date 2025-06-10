@@ -10,6 +10,7 @@ const SkillSets = () => {
     { name: "Tailwind", level: 70, value: 7 },
     { name: "Javascript", level: 80, value: 8 },
     { name: "Typescript", level: 70, value: 7 },
+    { name: "Node Js", level: 60, value: 6 },
     { name: "React Js", level: 80, value: 8 },
     { name: "Vue Js", level: 50, value: 5 },
     { name: "Next Js", level: 60, value: 6 },
@@ -38,7 +39,7 @@ const SkillSets = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex md:flex-row flex-col items-center justify-between"
+            className="flex md:flex-row flex-col items-start md:items-center justify-between"
           >
             <div className="flex items-center gap-2">
               <CircleCheck width={15} height={15} color="green" />
@@ -64,7 +65,7 @@ const SkillSets = () => {
         {tools.map((tool, index) => (
           <div
             key={index}
-            className="flex md:flex-row flex-col  items-center justify-between"
+            className="flex md:flex-row flex-col items-start md:items-center justify-between"
           >
             <div className="flex items-center gap-2">
               <CircleCheck width={15} height={15} color="green" />

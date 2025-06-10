@@ -155,12 +155,15 @@ const Projects = () => {
             custom={index}
           >
             <div className="text-lg">{project.title}</div>
-            <div className="text-sm text-gray-800">{project.description}</div>
+            <div className="text-sm text-gray-600">{project.description}</div>
             <div className="my-4">
               <div className="text-xs font-bold">Tech Stacks Used</div>
               <div className="flex gap-4 mt-2 flex-wrap">
                 {project.technologies.map((technology, idx) => (
-                  <span key={idx} className="text-xs">
+                  <span
+                    key={idx}
+                    className="text-xs border p-1 px-2 rounded-lg"
+                  >
                     {technology}
                   </span>
                 ))}
@@ -191,12 +194,15 @@ const Projects = () => {
             custom={index}
           >
             <div className="text-lg">{project.title}</div>
-            <div className="text-sm text-gray-800">{project.description}</div>
+            <div className="text-sm text-gray-600">{project.description}</div>
             <div className="my-4">
               <div className="text-xs font-bold">Tech Stacks Used</div>
               <div className="flex gap-4 mt-2 flex-wrap">
                 {project.technologies.map((technology, idx) => (
-                  <span key={idx} className="text-xs">
+                  <span
+                    key={idx}
+                    className="text-xs border p-1 px-2 rounded-lg"
+                  >
                     {technology}
                   </span>
                 ))}
