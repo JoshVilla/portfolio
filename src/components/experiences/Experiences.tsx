@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Separator } from "../ui/separator";
-import { ArrowUp, ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Experiences = () => {
